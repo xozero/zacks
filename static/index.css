@@ -1,0 +1,32 @@
+table {
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+thead {
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+thead tr {
+    border-bottom: none;
+}
+td {
+    padding: 4px 10px 0px 0px;
+}
+span {
+    font-weight: bold;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.yellow {
+    color: orange;
+}

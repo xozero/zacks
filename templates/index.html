@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel='stylesheet' href='/static/index.css'>
+</head>
+<body>
+
+<h2>{{ site }}</h2>
+
+<table>
+<thead>
+<tr>
+<td>SYMBOL</td><td>LEVEL</td><td>DATE</td>
+</tr>
+</thead>
+<tbody>
+{% for item in data %}
+<tr class='item'>
+<td>{{ item[0] | safe }}</td>
+<td>{{ item[1] | safe }}</td>
+<td>{{ item[2] | safe }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+</body>
+</html>
