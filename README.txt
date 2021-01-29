@@ -12,3 +12,6 @@ How it works:
 Note:
 nasdaqlisted and otherlisted are from the official Nasdaq ftp server:
 https://quant.stackexchange.com/questions/1640/where-to-download-list-of-all-common-stocks-traded-on-nyse-nasdaq-and-amex
+
+Setup:
+You have to create a config.py that contains SSH_HOST, SSH_USER, SSH_PASS such that the service can connect and execute the actual scraping.
